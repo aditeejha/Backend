@@ -13,5 +13,12 @@ let obj={
     pi:pi,
     g:g
 };
-
-module.exports=obj;
+module.exports={
+    sum:sum,
+    sub:sub,
+    mul:mul,    
+    div:div,
+    pi:pi,
+    g:g
+};
+//module.exports=obj;
