@@ -13,12 +13,19 @@ let obj={
     pi:pi,
     g:g
 };
-module.exports={
-    sum:sum,
-    sub:sub,
-    mul:mul,    
-    div:div,
-    pi:pi,
-    g:g
-};
+// module.exports={
+//     sum:sum,
+//     sub:sub,
+//     mul:mul,    
+//     div:div,
+//     pi:pi,
+//     g:g
+// };
 //module.exports=obj;
+
+module.exports.sum(a,b)=>a+b;
+module.exports.sub(a,b)=>a-b;
+module.exports.mul(a,b)=>a*b;
+module.exports.div(a,b)=>a/b;
+module.exports.pi=3.14;
+module.exports.g=9.8;
